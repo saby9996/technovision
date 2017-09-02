@@ -18,7 +18,7 @@
 15. Gallery styles 
 16. Blog Section styles 
 17. Post Pagination styles 
-18. Event Sponsor styles 
+18. Abstract Submission Format styles 
 19. Subscribe Section styles 
 20. Footer styles 
 21. Bottom Bar styles 
@@ -899,26 +899,26 @@ header .mainmenu-container li.dropdown > a .fa {
 
 }
 
-/** ====== Event Speakers styles ====== **/
+/** ====== Event Coordinators styles ====== **/
 
 
-#event-speakers {
+#event-coordinators {
   background: #FFFFFF;
   padding: 120px 0;
 }
-#event-speakers .single-speakers {
+#event-coordinators .single-coordinators {
   margin: 60px 0;
 }
-#event-speakers .single-speakers:hover .img-holder .img-container:after,
-#event-speakers .single-speakers:hover .img-holder .img-container:before {
+#event-coordinators .single-coordinators:hover .img-holder .img-container:after,
+#event-coordinators .single-coordinators:hover .img-holder .img-container:before {
   bottom: 0;
 }
-#event-speakers .single-speakers .img-holder .img-container {
+#event-coordinators .single-coordinators .img-holder .img-container {
   overflow: hidden;
   position: relative;
   display: inline-block;
 }
-#event-speakers .single-speakers .img-holder .img-container:before {
+#event-coordinators .single-coordinators .img-holder .img-container:before {
   content: '';
   position: absolute;
   top: 0;
@@ -937,7 +937,7 @@ header .mainmenu-container li.dropdown > a .fa {
   background: linear-gradient(to right, #1eb089 0%, #7c49ab 100%, #7db9e8 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1eb089', endColorstr='#7db9e8', GradientType=1);
 }
-#event-speakers .single-speakers .img-holder .img-container:after {
+#event-coordinators .single-coordinators.img-holder .img-container:after {
   content: ' ';
   position: absolute;
   bottom: 100%;
@@ -948,42 +948,42 @@ header .mainmenu-container li.dropdown > a .fa {
   background: transparent url(../img/gallery/overlay-bg.png) center center no-repeat;
   transition: all .3s ease .1s;
 }
-#event-speakers .single-speakers .img-holder img {
+#event-coordinators .single-coordinators.img-holder img {
   border-radius: 50%;
   box-shadow: -2px 2px 0 -1px rgba(11, 186, 151, 0.7), 2px 2px 0 -1px rgba(247, 159, 255, 0.7);
 }
-#event-speakers .single-speakers .info {
+#event-coordinators .single-coordinators .info {
   padding: 25px 0;
 }
-#event-speakers .single-speakers .info h3 {
+#event-coordinators .single-coordinators .info h3 {
   font-size: 18px;
   font-weight: bold;
   color: #374045;
   margin-bottom: 5px;
 }
-#event-speakers .single-speakers .info span.position {
+#event-coordinators .single-coordinators .info span.position {
   color: #929FA8;
   margin-bottom: 30px;
   display: block;
 }
-#event-speakers .single-speakers .info p {
+#event-coordinators .single-coordinators.info p {
   color: #929FA8;
   margin-bottom: 30px;
 }
-#event-speakers .single-speakers .info .social li {
+#event-coordinators .single-coordinators .info .social li {
   display: inline;
 }
-#event-speakers .single-speakers .info .social li a {
+#event-coordinators .single-coordinators .info .social li a {
   display: inline-block;
   color: #00D8B7;
   font-size: 15px;
   margin-right: 10px;
   transition: all .3s ease;
 }
-#event-speakers .single-speakers .info .social li a:hover {
+#event-coordinators .single-coordinators .info .social li a:hover {
   color: #FF8625;
 }
-#event-speakers a.show-more {
+#event-coordinators a.show-more {
   display: inline-block;
   border: 2px solid transparent;
   line-height: 44px;
@@ -995,11 +995,11 @@ header .mainmenu-container li.dropdown > a .fa {
   text-transform: uppercase;
   background: #FF8625;
 }
-#event-speakers a.show-more:hover {
+#event-coordinators a.show-more:hover {
   border-color: #FF8625;
   color: #FF8625;
 }
-#event-speakers a.show-more:before {
+#event-coordinators a.show-more:before {
   border-radius: 5px;
   background: #fff;
 
@@ -1529,56 +1529,56 @@ header .mainmenu-container li.dropdown > a .fa {
 
 }
 
-/** ====== Event Sponsor styles ====== **/
+/** ======abstract-submission styles ====== **/
 
 
-#event-sponsor {
+abstract-submission-format {
   padding: 120px 0;
 }
-#event-sponsor .sponsor-logo-row {
+abstract-submission-format .abstract-submission-format-logo-row {
   margin-top: 60px;
 }
-#event-sponsor .sponsor-logo {
+abstract-submission-format .abstract-submission-format-logo {
   padding: 25px 115px;
   position: relative;
 }
-#event-sponsor .sponsor-logo .owl-nav {
+abstract-submission-format .abstract-submission-format-logo .owl-nav {
   margin: 0;
 }
-#event-sponsor .sponsor-logo .item img {
+abstract-submission-format .abstract-submission-format-logo .item img {
   opacity: .4 !important;
   transition: all .3s ease;
 }
-#event-sponsor .sponsor-logo .item:hover img {
+abstract-submission-format .abstract-submission-format-logo .item:hover img {
   opacity: 1 !important;
 }
-#event-sponsor .sponsor-logo .owl-prev,
-#event-sponsor .sponsor-logo .owl-next {
+abstract-submission-format .abstract-submission-formatr-logo .owl-prev,
+abstract-submission-format .abstract-submission-format-logo .owl-next {
   position: absolute;
   top: 0;
   background: #fff;
   border: 1px solid #E8E8E8;
   transition: all .3s ease;
 }
-#event-sponsor .sponsor-logo .owl-prev:hover,
-#event-sponsor .sponsor-logo .owl-next:hover {
+abstract-submission-format .abstract-submission-format-logo .owl-prev:hover,
+abstract-submission-format .abstract-submission-format-logo .owl-next:hover {
   background: #FF8625;
   border-color: transparent;
 }
-#event-sponsor .sponsor-logo .owl-prev:hover i,
-#event-sponsor .sponsor-logo .owl-next:hover i {
+abstract-submission-format .abstract-submission-format-logo .owl-prev:hover i,
+abstract-submission-format .abstract-submission-format-logo .owl-next:hover i {
   color: #fff;
 }
-#event-sponsor .sponsor-logo .owl-prev i,
-#event-sponsor .sponsor-logo .owl-next i {
+#abstract-submission-format .abstract-submission-format-logo .owl-prev i,
+#abstract-submission-format .abstract-submission-format-logo .owl-next i {
   font-size: 23px;
   color: #374045;
   line-height: 65px;
 }
-#event-sponsor .sponsor-logo .owl-prev {
+#abstract-submission-format .abstract-submission-format-logo .owl-prev {
   left: 0;
 }
-#event-sponsor .sponsor-logo .owl-next {
+#abstract-submission-format .abstract-submission-format-logo .owl-next {
   right: 0;
 
 }
@@ -1764,32 +1764,32 @@ footer .footer-widget .social-icons a:hover {
 #event-speakers.style-two .col-lg-8 {
   border-left: 1px solid #E1E1E1;
 }
-#event-speakers.style-two .single-speakers {
+#event-coordinators.style-two .single-coordinators {
   margin-top: 20px;
   float: left;
   width: 50%;
   padding-left: 15px;
   margin-bottom: 30px;
 }
-#event-speakers.style-two .single-speakers img {
+#event-coordinators.style-two .single-coordinators img {
   float: left;
   margin-right: 20px;
   border-radius: 50%;
 }
-#event-speakers.style-two .single-speakers .info {
+#event-coordinators.style-two .single-coordinators .info {
   float: right;
   width: 69%;
   padding: 0;
 }
-#event-speakers.style-two .single-speakers .info ul.speaker-meta {
+#event-coordinators.style-two .single-coordinators .info ul.speaker-meta {
   margin-bottom: 5px;
   margin-left: -10px;
   margin-right: -10px;
 }
-#event-speakers.style-two .single-speakers .info ul.speaker-meta li {
+#event-coordinators.style-two .single-coordinators .info ul.speaker-meta li {
   display: inline;
 }
-#event-speakers.style-two .single-speakers .info ul.speaker-meta li span {
+#event-coordinators.style-two .single-coordinators .info ul.speaker-meta li span {
   display: inline-block;
   margin-bottom: 0;
   color: #000000;
@@ -1798,18 +1798,18 @@ footer .footer-widget .social-icons a:hover {
   border-right: 1px solid #E9E9E9;
   font-weight: bold;
 }
-#event-speakers.style-two .single-speakers .info ul.speaker-meta li span.position {
+#event-coordinators.style-two .single-coordinators .info ul.speaker-meta li span.position {
   font-weight: 600;
   font-size: 12px;
 }
-#event-speakers.style-two .single-speakers .info ul.speaker-meta li:last-child span {
+#event-coordinators.style-two .single-coordinators .info ul.speaker-meta li:last-child span {
   border: none;
 }
-#event-speakers.style-two .single-speakers .info p {
+#event-coordinators.style-two .single-coordinators .info p {
   margin: 0;
   margin-bottom: 10px;
 }
-#event-speakers.style-two .single-speakers .info .social i {
+#event-coordinators.style-two .single-coordinators .info .social i {
   background: -webkit-linear-gradient(#cb85f3, #04d693);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
